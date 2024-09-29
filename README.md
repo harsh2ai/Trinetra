@@ -50,8 +50,9 @@ If you prefer to set up manually:
 To label your images using CLIP:
 
 ```
-python src/classifier_labelling.py --data_dir "path/to/unlabelled/images" --output_dir "path/to/labelled/output"
+python src/classifier_labelling.py --data_dir "path/to/unlabelled/images" --categories "Human" "Vehicle" --output_dir "path/to/labelled/output"
 ```
+In the categories argument, you can specify the categories you want to label.
 
 ### Model Training
 
